@@ -8,18 +8,18 @@ spec:
     name: create-webhook
   params:
   - name: GitHubOrg
-    value: "iancoffey"
+    value: "dpro7026"
   - name: GitHubUser
-    value: "iancoffey"
+    value: "dpro7026"
   - name: GitHubRepo
-    value: "ulmaceae"
+    value: "tekton_triggers_tutorial"
   - name: GitHubSecretName
     value: webhook-secret
   - name: GitHubAccessTokenKey
-    value: token
+    value: "821500f6c03ce5bf07f11bf3ca8bb9bafdc72465"
   - name: GitHubSecretStringKey
     value: secret
   - name: ExternalDomain
-    value: demo.iancoffey.com
+    value: "159.122.174.104"
   timeout: 1000s
   serviceAccountName: tekton-triggers-createwebhook
